@@ -1,0 +1,11 @@
+body{
+    background-image: linear-gradient(279deg,rgba(209,46,48,0.9) 63%,rgba(189,15,30,0.5) 100%)!important;
+    font-family: Open Sans,Arial,sans-serif;
+    line-height: 1.7em;
+    -webkit-font-smoothing: antialiased;
+}
+
+.navbarcontact{
+    justify-content: center;
+    align-items: center;
+}
