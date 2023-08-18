@@ -31,3 +31,9 @@ header {
 .course-details {
     flex: 2;
 }
+
+.course-image img {
+    width: 300px; 
+    height: auto; 
+}
+
