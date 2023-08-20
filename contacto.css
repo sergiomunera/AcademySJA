@@ -1,8 +1,11 @@
 body{
     /* background-image: linear-gradient(279deg,rgba(209,46,48,0.9) 63%,rgba(189,15,30,0.5) 100%)!important; */
-    font-family: Open Sans,Arial,sans-serif;
+    /* font-family: Open Sans,Arial,sans-serif;
     line-height: 1.7em;
-    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased; */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .navbarcontact{
@@ -10,11 +13,18 @@ body{
     align-items: center;
 }
 
+.color{
+    font-weight: 900;
+}
+
+.colorHover:hover{
+    color: #3498DB;
+}
+
 .formularioSJA{
     margin: 2% 10% 2% 60%;
     padding-bottom: 10px;
     border-radius: 15px;
-    
     background: white;
 }
 
