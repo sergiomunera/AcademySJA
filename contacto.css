@@ -6,6 +6,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-image: url("/img/bandeiras.jpg");
 }
 
 .navbarcontact{
@@ -26,6 +27,7 @@ body{
     padding-bottom: 10px;
     border-radius: 15px;
     background: white;
+    padding: 10px;
 }
 
 .header{
