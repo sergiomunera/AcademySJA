@@ -1,8 +1,4 @@
 body{
-    /* background-image: linear-gradient(279deg,rgba(209,46,48,0.9) 63%,rgba(189,15,30,0.5) 100%)!important; */
-    /* font-family: Open Sans,Arial,sans-serif;
-    line-height: 1.7em;
-    -webkit-font-smoothing: antialiased; */
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -52,4 +48,12 @@ body{
     align-items: center;
     justify-content: center;
     height: 100px;
+}
+
+.color{
+    font-weight: 900 !important;
+}
+
+.colorHover:hover{
+    color: #3498DB !important;
 }
