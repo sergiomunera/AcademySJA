@@ -1,39 +1,119 @@
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
 .content {
-    flex: 1;
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
 }
 
-.color{
-    font-weight: 900;
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  background-image: url('./img/fondo.avif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.colorHover:hover{
-    color: #3498DB;
+.header {
+  background-color: #ec7063;
+  font-family: "Mulish", sans-serif;
+  letter-spacing: 0.7px;
+  font-size: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  height: 80px;
 }
 
-.header{
-    background-color: #EC7063;
-    flex: .1;
-    font-family: 'Mulish', sans-serif;
-    letter-spacing: .7px;
-    font-size: 20px;
+.footerColor {
+  background-color: #2e4053;
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.7px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  position: sticky;
+  bottom: 0;
+  z-index: 100;
 }
 
-.footerColor{
-    background-color: #2E4053;
-    font-family: 'Mulish', sans-serif;
-    font-size: 18px;
-    letter-spacing: 0.7px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100px;
+.color {
+  font-weight: 900;
 }
 
+.colorHover:hover {
+  color: #3498db;
+}
 
+.carousel-control-prev,
+.carousel-control-next {
+  align-items: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #ec7063;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.carouselContent  {
+  background-color: rgb(244, 246, 246, 0.8);
+  padding: 40px 0;
+  margin: 50px 200px;
+  border-radius: 20px;
+}
+
+.infoBackground {
+  background-color:  rgb(244, 246, 246, 0.8);
+  padding: 50px;
+  margin-bottom: 30px;
+  font-family: "Mulish", sans-serif;
+  border-radius: 20px;
+}
+
+.finalImages {
+  background-color: #ec7063;
+  padding: 10px;
+  height: 55vh;
+  border-radius: 20px;
+}
+
+.imageBox {
+  height: 60%;
+}
+.titleBox {
+  height: 20%;
+  font-family: "Mulish", sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 23px;
+}
+.contentBox {
+  height: 20%;
+  font-family: "Mulish", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.buttonStyle{
+    letter-spacing: 1px;
+}
+
+h1{
+    color:#ec7063;
+}
+
+.head{
+    background-color: rgb(244, 246, 246, 0.8);
+    padding: 40px 0;
+    margin: 50px 200px;
+    border-radius: 20px;
+}
